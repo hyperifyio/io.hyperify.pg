@@ -1,6 +1,6 @@
 **Join our [Discord](https://discord.gg/UBTrHxA78f) to discuss about our software!**
 
-# @heusalagroup/fi.hg.pg
+# @hyperifyio/io.hyperify.pg
 
 Lightweight PostgreSQL library written in TypeScript.
 
@@ -14,7 +14,7 @@ See also [hgrs](https://github.com/heusalagroup/hgrs).
 
 ### It doesn't have many runtime dependencies
 
-This library expects [@heusalagroup/fi.hg.core](https://github.com/heusalagroup/fi.hg.core) to be located 
+This library expects [@hyperifyio/io.hyperify.core](https://github.com/hyperifyio/io.hyperify.core) to be located 
 in the relative path `../core` and only required dependency it has is for [Lodash 
 library](https://lodash.com/).
 
@@ -30,11 +30,11 @@ Recommended way to initialize your project is like this:
 ```
 mkdir -p src/fi/hg
 
-git submodule add git@github.com:heusalagroup/fi.hg.core.git src/fi/hg/core
-git config -f .gitmodules submodule.src/fi/hg/core.branch main
+git submodule add git@github.com:hyperifyio/io.hyperify.core.git src/io/hyperify/core
+git config -f .gitmodules submodule.src/io/hyperify/core.branch main
 
-git submodule add git@github.com:heusalagroup/fi.hg.pg.git src/fi/hg/pg
-git config -f .gitmodules submodule.src/fi/hg/pg.branch main
+git submodule add git@github.com:hyperifyio/io.hyperify.pg.git src/io/hyperify/pg
+git config -f .gitmodules submodule.src/io/hyperify/pg.branch main
 ```
 
 Other required dependencies are [the Lodash library](https://lodash.com/) and [pg](https://github.com/brianc/node-postgres):
