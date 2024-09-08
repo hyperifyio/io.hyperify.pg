@@ -2,10 +2,10 @@ version: '3.1'
 
 services:
 
-  fi-hg-pg-server:
+  io-hyperify-pg-server:
     restart: "unless-stopped"
-    container_name: fi-hg-pg-server
-    image: "fi-hg-pg-server:latest"
+    container_name: io-hyperify-pg-server
+    image: "io-hyperify-pg-server:latest"
     cap_add:
     - SYS_NICE  # CAP_SYS_NICE
     build:
